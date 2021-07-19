@@ -1,0 +1,46 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 12px;
+    padding-bottom: 8px;
+}
+#home{
+    height: 400px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 488px;
+}
+#home p{
+    font-size: 14px;
+}
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 5px 10px;
+}
+#services-container::before{
+    height: 1000px;
+}
+#clint-container{
+    flex-wrap: wrap;
+}
+.clint-items img{
+    height: auto;
+    width: 70px;
+    margin: 0px 22px;
+    padding: 5px;
+}
+#contact-box form{
+    width: 80%;
+}
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
